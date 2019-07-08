@@ -36,4 +36,4 @@ jobs:
 
       # run tests!
       - run: yarn ng build --prod --build-optimizer --no-progress
-      - run: yarn ng test --single-run --no-progress
+      - run: yarn ng test
