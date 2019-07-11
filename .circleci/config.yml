@@ -39,3 +39,4 @@ jobs:
           command: |
             npm test -- --no-watch --no-progress --code-coverage
             COVERALLS_REPO_TOKEN=OTadQbqYm5zuaoGnrxH47alJF8fnmOUtQ
+
