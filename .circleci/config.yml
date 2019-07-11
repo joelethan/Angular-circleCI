@@ -41,5 +41,5 @@ jobs:
       - run:
           name: Coveralls
           command: |
-            COVERALLS_REPO_TOKEN=OTadQbqYm5zuaoGnrxH47alJF8fnmOUtQ
             cat ./coverage/Angular-circleCI/lcov.info  | ./node_modules/coveralls/bin/coveralls.js
+            COVERALLS_REPO_TOKEN=OTadQbqYm5zuaoGnrxH47alJF8fnmOUtQ
