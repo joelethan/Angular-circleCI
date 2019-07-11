@@ -34,4 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm test -- --no-watch --no-progress
+      - run:
+          name: run tests
+          command: |
+            npm test -- --no-watch --no-progress
